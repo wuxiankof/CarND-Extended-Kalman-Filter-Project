@@ -44,6 +44,14 @@ class FusionEKF {
   Eigen::MatrixXd R_radar_;
   Eigen::MatrixXd H_laser_;
   Eigen::MatrixXd Hj_;
+  
+    /**
+   * TODO: define the process and measurement noises
+   */
+
+  //acceleration noise components
+  float noise_ax;
+  float noise_ay;
 };
 
 #endif // FusionEKF_H_
